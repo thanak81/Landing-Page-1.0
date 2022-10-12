@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #1f2937;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding:10px;
+    padding-left: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    display: block;
+    padding: 10px;
+    padding-right: 150px;
+}
+.introduction{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    width: 100%;
+}
+
+.intro p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.intro h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight:bolder;
+}
+.placeholder{
+    width: 350px;
+    height: 150px;
+    background-color: gray;
+}
+button{
+    color: white;
+    border: #3882F6;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    width: 100px;
+}
+.randomh1{
+    padding-top: 20px;
+    text-align:  center;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.img{
+    margin: 1em;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: blue solid ;
+    border-radius: 10px;
+}
+.body1{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+.quote{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.body1 p {
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+.bodyy{
+    width: 100%;
+    display: flex;
+    justify-content: CENTER;
+}
+.body2{
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    margin: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.cta{
+    font-family: 'Roboto', sans-serif;
+}
+.sign{
+    color: white;
+    border: white solid 1px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    width: 100px;
+}
+footer div{
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: #1f2937;
+}
